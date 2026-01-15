@@ -1,7 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-	basePath: "/nextblog",
-	assetPrefix: "/nextblog",
+	basePath: process.env.BASE_PATH,
 	output: "export",
 	images: {
 		unoptimized: true,
